@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Medicine from "../../assets/images/Medicine.svg";
-import { AiOutlineSearch } from "react-icons/ai";
-
+ 
 import "./header.css";
 import Card from "./Card";
 import User from "./User";
