@@ -1,8 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { authtActions } from "../../store/authSlice";
-import back from "../../assets/images/my-account.jpg";
-import "./login.css";
+ import "./login.css";
 
 
 const Login = () => {
@@ -15,14 +14,11 @@ const Login = () => {
     <>
       <section className="login">
         <div className="container">
-          <div className="backImg">
-            <img src={back} alt="" />
-            <div className="text">
-              <h3>Login</h3>
-              <h1>My Account </h1>
-            </div>
-          </div>
-          <form onSubmit={handleSubmit}>
+        <div className="text">
+           <h3>Login</h3>
+             </div>
+           <form onSubmit={handleSubmit} className="form">
+           
             <span> Username orEmail address</span>
             <input type="text" required />
             <span>Password *</span>

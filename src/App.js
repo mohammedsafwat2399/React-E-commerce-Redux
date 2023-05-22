@@ -3,8 +3,7 @@ import { useSelector } from "react-redux";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //component
 import Home from "./pages/home/Home";
-import Regsiter from "./pages/login/Regsiter";
-import Login from "./pages/login/Login";
+ import Login from "./pages/login/Login";
  import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 
@@ -17,8 +16,7 @@ const App = () => {
           <Header />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/regsiter" component={Regsiter} />
-           </Switch>
+            </Switch>
           <Footer />
         </Router>
       )}
